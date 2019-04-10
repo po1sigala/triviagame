@@ -1,0 +1,13 @@
+*{
+    font-family: 'Roboto', serif;
+}
+body{
+    background: url(../images/football.jpg);
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.jumbotron{
+    background: rgba(128, 128, 128, 0.219);
+    color: red;
+    font-family: 'Roboto', Serif;
+}
