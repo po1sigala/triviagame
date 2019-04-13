@@ -7,7 +7,7 @@ var answers= ["brady","the tuck rule","dorsett","cowboys"]
 var correctCount = 0;
 var incorrectCount= 0;
 var userGuess = "";
-var timeLeft=;
+var timeLeft="";
 var intervalID;
 /*
 1.set var user guess equal to the users input in the textbox set to lowercase and without spaces if possible*/
