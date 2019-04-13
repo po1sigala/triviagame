@@ -11,11 +11,25 @@
     <title>Document</title>
 </head>
 <body>
-<div class="wrapper">
+<div class="wrapper"> <div aria-live="polite" aria-atomic="true" style="position: relative; min-height: 200px;">
+  <div class="toast" style="position: absolute; top: 0; right: 50%;">
+    <div class="toast-header">
+      <img src="assets/images/wrong.jpg" class="rounded mr-2" alt="...">
+      <strong class="mr-auto">Bootstrap</strong>
+      <small>11 mins ago</small>
+      <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    <div class="toast-body">
+      That ain't it chief.
+    </div>
+  </div>
+</div>
     <!--jumbotron welcoming and describing game-->
     <div class="jumbotron">
         <div class="container">
-          <h1 class="display-4">NFL Trivia</h1>
+          <h1 class="display-4">NFL Trivia <span id="time"></span></h1>
           <p class="lead">Test your knowledge of America's favorite sport!</p>
         </div>
       </div>
@@ -23,7 +37,7 @@
 <div class="media">
         <img src="assets/images/landry.jpg" class="align-self-start mr-3" alt="...">
         <div class="media-body">
-          <h5 class="mt-0">Get ready!<span id="qNumber"></span></h5>
+          <h5 class="mt-0"><span id="qNumber">Get ready!</span></h5>
           <p id="question">Click the button below to begin the quiz</p>
           <div class="input-group mb-3">
                 
@@ -36,8 +50,10 @@
         </div>
       </div>
 
+     
       </div>
 </body>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="assets/javascript/game.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </html>

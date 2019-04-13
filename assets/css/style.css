@@ -1,6 +1,6 @@
 *{
     font-family: 'Roboto', serif;
-    color: red;
+    color: white;
 }
 body{
     background: url(../images/football.jpg);
@@ -9,6 +9,15 @@ body{
 }
 .jumbotron{
     background: rgba(128, 128, 128, 0.219);
-    color: red;
+    color: white;
     font-family: 'Roboto', Serif;
+}
+.media{
+    background: rgba(128, 128, 128, 0.6);
+}
+.btn{
+    background-color: whitesmoke;
+}
+#time{
+    color: red;
 }
